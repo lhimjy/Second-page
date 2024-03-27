@@ -4,19 +4,30 @@
 #container{
   display: flex;
   flex-direction: column;
-  height: 95vh;
+  height: 94vh;
 }
 #head{
   /*flex-basis: 100px;*/
-  padding: 4vh;
+  display: flex;
+  flex-direction: row;
+  padding: 3vh;
   background-color: rgba(0, 255, 255, 0.112);
 }
 .title{
   font-weight: 200;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: xx-large;
+  font-size: calc(3.5vh);
   padding: 1vh 1vw 1vh 1vw;
+  flex-grow: 1;
   color: rgba(177, 128, 63, 0.792);
+}
+#add{
+  padding:1vh 1vw 1vh 1vw;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 100;
+  font-size: large;
+  font-size: calc(2vh);
 }
 #main{
   display: flex;
@@ -35,6 +46,7 @@
   border-radius: 12px;
   margin: 3vh 5vw 3vh 5vw;
   overflow: hidden;
+  background-color: rgba(183, 56, 56, 0.1);
 }
 #foot{
   text-align: center;
@@ -46,3 +58,12 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 100;
 }
+hr{
+  width: 99vw;
+  margin: 0.5vh;
+}
+.last{
+  font-style: oblique;
+}
+/*max-width 주기
+년도 날짜 중앙에 맞추기
