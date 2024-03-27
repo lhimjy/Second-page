@@ -1,36 +1,48 @@
-html{
+/*html{
   background-color: beige;
-}
+}*/
 #container{
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 95vh;
 }
 #head{
   /*flex-basis: 100px;*/
   padding: 4vh;
-  background-color: aqua;
+  background-color: rgba(0, 255, 255, 0.112);
 }
 .title{
+  font-weight: 200;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
   padding: 1vh 1vw 1vh 1vw;
-  background-color: blue;
+  color: rgba(177, 128, 63, 0.792);
 }
 #main{
   display: flex;
+  flex-wrap: wrap;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
-  background-color: brown;
+  background-color: rgba(245, 245, 220, 0.413);
 }
 .picture{
-  text-align: center;
-  padding: 3vh 4vw 3vh 4vw;
-  background-color: chartreuse;
-  margin: 3vh 4vw 3vh 4vw;
-}
-.col{
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  box-shadow: 4px 4px 2px black;
+  border-radius: 12px;
+  margin: 3vh 5vw 3vh 5vw;
+  overflow: hidden;
 }
-
-/*사진들 나열하기
+#foot{
+  text-align: center;
+  height: 5vh;
+  background-color: rgba(153, 205, 50, 0.178);
+}
+.tel{
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+}
