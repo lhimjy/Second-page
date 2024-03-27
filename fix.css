@@ -1,0 +1,36 @@
+html{
+  background-color: beige;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+#head{
+  /*flex-basis: 100px;*/
+  padding: 4vh;
+  background-color: aqua;
+}
+.title{
+  padding: 1vh 1vw 1vh 1vw;
+  background-color: blue;
+}
+#main{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+}
+.picture{
+  text-align: center;
+  padding: 3vh 4vw 3vh 4vw;
+  background-color: chartreuse;
+  margin: 3vh 4vw 3vh 4vw;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+/*사진들 나열하기
